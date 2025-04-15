@@ -3,9 +3,5 @@
     <h1>Welcome to My Hugo Site</h1>
     <p>This is a simple Hugo project with just an index file.</p>
     <img src="/images/hugo.png" alt="Hugo Logo">
-    <div class="logo-container">
-        <div> one logo </div>
-        <div> Two logo </div>
-        <div> three logo </div>
-    </div>
+    {{ partial "logo-container.html" . }}
 </section>
