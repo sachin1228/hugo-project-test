@@ -1,25 +1,10 @@
----
-title: "Home"
-date: 2023-10-10
-draft: false
----
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Hugo Site</title>
-</head>
-<body>
-
-    {{ partial "header.html" . }} <!-- Include the header partial -->
-    {{ partial "hero.html" . }} <!-- Include the hero partial -->
-    {{ partial "logo-container.html" . }} <!-- Include the logo container partial -->
-    {{ .Content }} <!-- Render the content from the content file -->
-    {{ partial "footer.html" . }} <!-- Include the footer partial -->
-
-</body>
-</html>
++++
+title = "Home"
+layout = "default"
++++
+ <h1>
+Welcome
+</h1>
+<p>
+	test html content
+	</p>
